@@ -1,0 +1,6 @@
+ipykernel
+pandas==2.0.3
+numpy>1.21.5
+matplotlib==3.5.3
+scikit-learn==1.2.2
+seaBorn
