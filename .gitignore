@@ -9,6 +9,12 @@
 *.jpg
 *.text
 
+# ignore candidate models
+models/*
+
+# DONT ignore the best model
+!models/model_105.json
+
 # whitelist the requiremets.txt file
 !requirements.txt
 
