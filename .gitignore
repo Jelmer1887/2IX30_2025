@@ -1,5 +1,11 @@
-# Ignore the data folder
+# Ignore the data folders
 *data*/
+
+# Ignore the latex output of notebooks
+*.tex
+
+# Ignore any leftover archive files
+*.zip
 
 # Ignore virtual environment folders
 venv/
