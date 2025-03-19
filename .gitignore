@@ -1,8 +1,16 @@
 # Ignore the data folders
 *data*/
 
-# Ignore the latex output of notebooks
+# Ignore the latex and other output of notebooks
 *.tex
+*.pdf
+*.log
+*.png
+*.jpg
+*.text
+
+# whitelist the requiremets.txt file
+!requirements.txt
 
 # Ignore any leftover archive files
 *.zip
